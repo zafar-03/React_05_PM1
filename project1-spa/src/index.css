@@ -1,0 +1,81 @@
+.my-bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.644),rgba(0, 0, 0, 0.644)),url("https://bootstrapmade.com/content/demo/Passion/assets/img/bg/bg-14.webp");
+    height: 100vh;
+}
+
+.my-blur{
+    background-color: rgba(255, 255, 255, 0.119);
+    backdrop-filter: blur(5px);
+    color: white;
+    /* text-align: justify; */
+    /* filter: blur(10px); */
+}
+.mydata{
+    bottom: 20px;
+    left: -10px;
+}
+
+
+.my-animation{
+    position: relative;
+    width: 200%;
+    animation-name: slider;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes slider {
+    from{
+        left: 0%;
+    }
+    to{
+        left: -50%;
+    }
+}
+.my-animation img{
+    filter: grayscale(1);
+}
+.my-animation img:hover{
+    filter: grayscale(0);
+}
+.my-animation2::before{
+    content: "zafar";
+    position: absolute;
+    bottom: 0px;
+    left: -50px;
+    background-color: rgba(215, 253, 215, 0.544);
+    color: transparent;
+    width: 200px;
+    height: 100px;
+    z-index: -1;
+    animation-name: uppercode;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 4s;
+}
+@keyframes uppercode {
+    from{
+        bottom: 0px;
+    }
+    to{
+        bottom: 50px;
+    }
+}
+
+
+.my-animation2::after{
+    content: "zafar";
+    position: absolute;
+    top:-40px;
+    right: 0px;
+    background-color: rgba(215, 253, 215, 0.544);
+    color: transparent;
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    z-index: -1;
+}

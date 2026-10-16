@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #60738d;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+}
+
+.form-box {
+    background-color: #f5f6f8;
+    padding: 30px;
+    border-radius: 3px;
+
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Title */
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.title span {
+    height: 2px;
+    background-color: #d0d0d0;
+    flex: 1;
+}
+
+.title h1 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #53677f;
+}
+
+/* Subtitle */
+
+.subtitle {
+    text-align: center;
+    color: #8a8a8a;
+    font-size: 14px;
+    margin: 15px 0 32px;
+}
+
+/* Inputs */
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    height: 40px;
+
+    padding: 10px 12px;
+
+    border: 1px solid #ccc;
+    border-radius: 3px;
+
+    font-size: 14px;
+    outline: none;
+
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border-color: #55b957;
+}
+
+/* First Name + Last Name */
+
+.name-fields {
+    display: flex;
+    gap: 20px;
+}
+
+.name-fields input {
+    width: 50%;
+}
+
+/* Terms */
+
+.terms {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+
+    color: #888;
+    font-size: 14px;
+
+    margin-top: 2px;
+    margin-bottom: 22px;
+}
+
+.terms input {
+    margin-top: 2px;
+}
+
+.terms a {
+    color: #38a84a;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+/* Button */
+
+button {
+    width: 100%;
+    height: 42px;
+
+    border: none;
+    border-radius: 3px;
+
+    background-color: #45aa48;
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #39953d;
+}
+
+/* Login */
+
+.login {
+    text-align: center;
+    color: white;
+
+    font-size: 14px;
+    margin-top: 17px;
+}
+
+.login a {
+    color: white;
+    font-weight: bold;
+}
+
+.login a:hover {
+    text-decoration: none;
+}
+
+/* Responsive */
+
+@media (max-width: 450px) {
+
+    .container {
+        width: 90%;
+    }
+
+    .form-box {
+        padding: 25px 20px;
+    }
+
+    .name-fields {
+        gap: 10px;
+    }
+
+    .title h1 {
+        font-size: 26px;
+    }
+}

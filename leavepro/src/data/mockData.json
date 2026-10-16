@@ -1,0 +1,29 @@
+{
+  "employees": [
+    {
+      "id": "a8f3c1d2",
+      "email": "rahul@gmail.com",
+      "password": "Rahul@123"
+    },
+    {
+      "id": "b7e2d4f9",
+      "email": "priya@gmail.com",
+      "password": "Priya@123"
+    },
+    {
+      "id": "c5a9e1b6",
+      "email": "amit@gmail.com",
+      "password": "Amit@123"
+    },
+    {
+      "id": "d3f6b8a2",
+      "email": "neha@gmail.com",
+      "password": "Neha@123"
+    },
+    {
+      "id": "e1c4a7d5",
+      "email": "karan@gmail.com",
+      "password": "Karan@123"
+    }
+  ]
+}

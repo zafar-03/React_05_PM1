@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        // console.log("JS");
+        // console.log("Spread Op with Array");
+        // // 1.
+        // const arr = [34,67,22,12,675];
+        // console.log(arr);
+        // // loop : 
+        // console.log(...arr);
+
+        // 2.
+        // const arr2 = [...arr,24,79,90];
+        // console.log(arr2);
+
+        // console.log("Rest Op with Array");
+
+        // function addition(n1,n2){
+        //     console.log("Addition : ",n1+n2);
+        // }
+        // addition(11,12);
+        // addition(11,12,45);
+
+        // function addition(...restparameter){
+        //     var sum = 0;
+        //     for (const element of restparameter) {
+        //             sum+=element;
+        //     }
+        //     console.log("Addition :",sum);
+        // }
+        // addition(11,12);
+        // addition(11,12,45,68,42,35);
+
+
+
+        // console.log("Spread Op with Object : ");
+        // const obj = {
+        //     fname : "Raj",
+        //     lname : "shah",
+        //     age : 23
+        // };
+        // // console.log(...obj);
+
+        // const obj2 = {
+        //     ...obj,
+        //     gender : "male"
+        // };
+        // console.log(obj2)
+
+
+        // console.log("Rest Op with Obj");
+
+        // function greating({lname,...data}){
+        //     console.log(data);
+        // }
+
+        // greating({fname:"raj",lname:"shah",age : 12});
+
+        const arr = [
+            {
+                fname: "Raj",
+                lname: "Shah",
+                age: 10
+            },
+            {
+                fname: "Rajesh",
+                lname: "Sharma",
+                age: 20
+            },
+            {
+                fname: "Rajveer",
+                lname: "Patel",
+                age: 23
+            }
+        ];
+
+        arr.map((element)=>{
+            console.log(element);
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+{
+    "blogs" : [
+  {
+    "id": 1,
+    "title": "Introduction to Web Development",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "author": "Rahul Sharma",
+    "date": "2026-09-01",
+    "description": "Learn the basics of web development, including HTML, CSS, JavaScript, and how websites work."
+  },
+  {
+    "id": 2,
+    "title": "Getting Started with React",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
+    "author": "Priya Patel",
+    "date": "2026-09-03",
+    "description": "A beginner-friendly introduction to React components, props, state, and modern frontend development."
+  },
+  {
+    "id": 3,
+    "title": "JavaScript Array Methods",
+    "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479",
+    "author": "Amit Shah",
+    "date": "2026-09-05",
+    "description": "Explore useful JavaScript array methods such as map, filter, reduce, find, and forEach."
+  },
+  {
+    "id": 4,
+    "title": "Understanding Node.js",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+    "author": "Neha Joshi",
+    "date": "2026-09-07",
+    "description": "Understand how Node.js works and learn how to build backend applications using JavaScript."
+  },
+  {
+    "id": 5,
+    "title": "MongoDB for Beginners",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
+    "author": "Karan Mehta",
+    "date": "2026-09-10",
+    "description": "Learn MongoDB fundamentals including databases, collections, documents, and CRUD operations."
+  },
+  {
+    "id": 6,
+    "title": "CSS Flexbox Guide",
+    "image": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2",
+    "author": "Sneha Patel",
+    "date": "2026-09-12",
+    "description": "Learn how to create flexible and responsive layouts using CSS Flexbox."
+  },
+  {
+    "id": 7,
+    "title": "Python Programming Basics",
+    "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935",
+    "author": "Vikas Kumar",
+    "date": "2026-09-15",
+    "description": "Start your Python journey by learning variables, data types, conditions, loops, and functions."
+  },
+  {
+    "id": 8,
+    "title": "Introduction to APIs",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    "author": "Riya Desai",
+    "date": "2026-09-18",
+    "description": "Understand what APIs are and how frontend applications communicate with backend services."
+  },
+  {
+    "id": 9,
+    "title": "Responsive Web Design",
+    "image": "https://images.unsplash.com/photo-1547658719-da2b51169166",
+    "author": "Harsh Patel",
+    "date": "2026-09-21",
+    "description": "Learn techniques for creating websites that look great on desktops, tablets, and mobile devices."
+  },
+  {
+    "id": 10,
+    "title": "Git and GitHub Basics",
+    "image": "https://images.unsplash.com/photo-1556075798-4825dfaaf498",
+    "author": "Anjali Shah",
+    "date": "2026-09-25",
+    "description": "Learn Git and GitHub basics including repositories, commits, branches, push, pull, and collaboration."
+  }
+]
+}
